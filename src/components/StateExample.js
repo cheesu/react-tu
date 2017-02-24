@@ -23,7 +23,8 @@ class StateExample extends React.Component {
     **/
     updateHeader(text){
         this.setState({
-            header: "Header has changed"
+            header: "Header has changed",
+            content: "Content Initial State change"
         });
     }
 
